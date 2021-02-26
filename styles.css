@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: 'RocknRoll One', sans-serif;
+  font-size: 1.425rem;
+  color: white;
+  height: 100vh;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  text-align: center;
+  margin-top: 2.75rem;
+  background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+}
+
+button {
+  font-family: 'RocknRoll One', sans-serif;
+  padding: 8px;
+  background: none;
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  font-size: .725rem;
+  color: white;
+}
+
+.active {
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+.time {
+  display: flex;
+  justify-content: space-around;
+  font-size: 3.775rem;
+  margin: inherit;
+}
+
+button.action_button {
+  padding: .2rem 2rem;
+  font-size: 2.2rem
+}
+
+.action_button {
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+  -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+  box-shadow: inset 0px 0px 5px #c1c1c1;
+}
